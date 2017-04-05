@@ -12,6 +12,8 @@
         opts.bus.on('source-change', (source) => {
             this.source = source;
             this.update();
+            this.refs.audio.load();
+            this.refs.audio.play();
         });
     </script>
 </audio-player>
