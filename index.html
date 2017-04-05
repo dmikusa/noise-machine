@@ -4,12 +4,57 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A very simple two component demo</title>
+    <title>A simple white noise / soothing noise machine</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/noise-machine.css" rel="stylesheet">
   </head>
   <body>
-    <car-key></car-key>
-    <car-headlights></car-headlights>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Noise Machine</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+    </nav>
 
-    <script src="bundle.min.js"></script>
+    <!-- Begin page content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <p>The noise machine plays various soothing noises and tones.  Please select a noise to play from the list below.</p>
+            </div>
+        </div>
+        <div class="row">
+            <noise-button source="noise/beach">Beach</noise-button>
+            <noise-button source="noise/waves">Waves</noise-button>
+            <noise-button source="noise/rain">Rain</noise-button>
+            <noise-button source="noise/tones">Tones</noise-button>
+            <noise-button source="noise/white_noise">White Noise</noise-button>
+        </div>
+        <div class="row">
+            <audio-player default-source="noise/beach"></audio-player>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+          <p>Noise Machine by <a href="https://github.com/dmikusa">Daniel Mikusa</a></p>
+      </div>
+    </footer>
+
+    <script src="bundle.js"></script>
   </body>
 </html>
