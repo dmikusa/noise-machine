@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
+    "test:watch": "karma start --no-single-run",
     "build": "browserify index.js -t babelify -t [ riotify --type es6 ] --debug --outfile bundle.js",
     "build:dist": "browserify index.js -t babelify -t [ riotify --type es6 ] | uglifyjs - | bundle-collapser - > bundle.min.js",
     "watch": "watchify -v --debug -t babelify -t [ riotify --type es6 ] index.js -o bundle.js",
