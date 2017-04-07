@@ -7,7 +7,7 @@
 
     <script>
         this.changeTrack = () => {
-            opts.bus.trigger('source-change', opts.source);
+            this.bus.trigger('source-change', opts.source);
         }
     </script>
 </noise-button>

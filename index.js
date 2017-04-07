@@ -14,9 +14,15 @@ import NavBar from './tags/nav-bar.tag'
 import AudioPlayer from './tags/audio-player.tag'
 import NoiseButton from './tags/noise-button.tag'
 
+// create "bus" for exchanging event messages, just a dummy object turned
+//  into an riot observable
 const bus = {};
 riot.observable(bus);
 
+// add mixin so all tags get the bus
+riot.mixin('BusMixin', {
+    bus: bus
+}, true);
 
 // mount all tags
 riot.mount("nav-bar, display");

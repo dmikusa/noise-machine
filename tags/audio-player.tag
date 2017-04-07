@@ -9,10 +9,17 @@
     <script>
         this.source = opts.defaultSource;
 
-        opts.bus.on('source-change', (source) => {
+        this.bus.on('source-change', (source) => {
             this.source = source;
             this.update();
             var audio = document.querySelector('audio');
+            // only load if we're in a good state, if we try to load in other
+            //  states then we'll get an exception.
+            //  http://stackoverflow.com/a/41862995/1585136
+            if (audio.readyState === 4) {
+                audio.load();
+            }
+            audio.play();
         });
     </script>
 </audio-player>
