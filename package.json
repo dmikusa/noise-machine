@@ -24,6 +24,8 @@
     "babelify": "^7.3.0",
     "browserify": "^14.1.0",
     "bundle-collapser": "^1.2.1",
+    "cordova": "^6.5.0",
+    "ios-deploy": "^1.9.1",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
     "karma-jasmine": "^1.1.0",
