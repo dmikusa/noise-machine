@@ -13,7 +13,7 @@ body {
   margin-bottom: 60px;
 }
 
-body > .container-fluid {
+body > display > .container-fluid {
   padding: 60px 15px 0;
 }
 
