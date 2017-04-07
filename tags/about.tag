@@ -15,6 +15,7 @@
                         <li><a href="http://cantonbecker.com/white-noise-mp3-sleep-sounds/">White Noise</a> is under <a href="https://creativecommons.org/licenses/by/3.0/">the Creative Commons Attribution License</a>.</li>
                     </ul>
                 </p>
+                <p>Icons made by <a href="http://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
             </div>
         </div>
     </div>
