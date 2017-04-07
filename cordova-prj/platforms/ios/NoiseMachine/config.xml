@@ -36,6 +36,22 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <icon height="60" src="www/img/icons/Icon-60.png" width="60" />
+    <icon height="120" src="www/img/icons/Icon-60@2x.png" width="120" />
+    <icon height="180" src="www/img/icons/Icon-60@3x.png" width="180" />
+    <icon height="76" src="www/img/icons/Icon-76.png" width="76" />
+    <icon height="152" src="www/img/icons/Icon-76@2x.png" width="152" />
+    <icon height="40" src="www/img/icons/Icon-Small-40.png" width="40" />
+    <icon height="80" src="www/img/icons/Icon-Small-40@2x.png" width="80" />
+    <icon height="57" src="www/img/icons/Icon.png" width="57" />
+    <icon height="114" src="www/img/icons/Icon@2x.png" width="114" />
+    <icon height="72" src="www/img/icons/Icon-72.png" width="72" />
+    <icon height="144" src="www/img/icons/Icon-72@2x.png" width="144" />
+    <icon height="29" src="www/img/icons/Icon-Small.png" width="29" />
+    <icon height="58" src="www/img/icons/Icon-Small@2x.png" width="58" />
+    <icon height="87" src="www/img/icons/Icon-Small@3x.png" width="87" />
+    <icon height="50" src="www/img/icons/Icon-Small-50.png" width="50" />
+    <icon height="100" src="www/img/icons/Icon-Small-50@2x.png" width="100" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
