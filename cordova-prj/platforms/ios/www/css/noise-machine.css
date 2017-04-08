@@ -9,8 +9,13 @@ html {
 }
 
 body {
+  margin-top: 20px;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+}
+
+.navbar-fixed-top {
+ top: 20px;
 }
 
 body > display > .container-fluid {
