@@ -12,4 +12,4 @@ Run `npm run watch` or `npm test` or `npm run test:watch`.
 
 ## To Build IOS App
 
-Run `cordova build`.  You can also open the workspace in XCode and deploy to an IOS device that way, assuming you have one setup.  Follow Apple & Cordova instructions for doing that.
+Run `cordova build ios` or `cordova emulate ios` from the `cordova-prj` folder.  You can also open the workspace in XCode and deploy to an IOS device that way, assuming you have one setup.  Follow Apple & Cordova instructions for doing that.
